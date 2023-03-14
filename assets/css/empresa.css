@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'AudioWide';
+    src: url(../fonts/Audiowide-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+/* ---------------------- NAVBAR ------------------------*/
+
+h1, h2, p{
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+nav .container-fluid .box-logos{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+}
+
+nav .container-fluid .box-logos h1{
+    margin: 0;
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+   
+    color: #493A8B;
+}
+
+nav .container-fluid ul li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    
+}
+
+nav .container-fluid ul li a{
+  
+    color: #493A8B!important;
+}
+
+/*---------------------------- PRIMEIRA PARTE ---------------------------*/
+
+.main .primeira-parte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 520px;
+}
+
+.main .primeira-parte .textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;    
+}
+
+
+.main .primeira-parte .textos .titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+
+
+.main .primeira-parte .textos .subtitulo{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 148.33%;
+    color: #1A1462;
+}
+
+.main .primeira-parte .textos .subtitulo p{
+    
+   text-align: center;
+}
+
+.main .primeira-parte h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 117%;
+    color: #493A8B;
+}
+
+.main .primeira-parte h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 117%;
+    color: #9056E8;
+    margin-bottom: 10px;
+}
+
+
+.main .primeira-parte .box-btn{
+    margin-top: 15px;
+}
+
+.main .primeira-parte button{
+    width: 170px;
+    height: 50px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    background: #9056E8;
+    border-radius: 30px;
+    color: white;
+    border: 0;
+}
+
+.main .primeira-parte button:hover{
+    background: #7931e4;
+   
+}
+
+
+
+/*---------------------------- SOBRE NÓS ---------------------------*/
+
+
+.main .sobrenos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+
+.main .sobrenos .box-logomarca{
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .sobrenos .box-logomarca img{
+    
+    width: 240px;
+    margin-bottom: 15px;
+}
+
+.main .sobrenos .sobrenos-informacao{
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .sobrenos .sobrenos-informacao .titulo-sobrenos h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 1.2rem;
+line-height: 48px;
+color: #9056E8;
+
+
+}
+
+
+.main .sobrenos .texto-sobrenos{
+    margin-top: 10px;
+
+
+}
+
+.main .sobrenos .texto-sobrenos p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1A1462;
+
+
+}
+
+
+/*------------------------------------ SERVIÇOS ----------------------------------*/
+
+.main .servicos {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    margin-top: 100px;
+}
+
+
+.main .servicos .titulo-servicos h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 1.2rem;
+line-height: 48px;
+color: #9056E8;
+
+
+}
+
+
