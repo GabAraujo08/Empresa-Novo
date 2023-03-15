@@ -8,7 +8,16 @@
     src: url(../fonts/Poppins-Medium.ttf);
 }
 
+
+
+.background{
+    background-image: url('../img/background-servico-equipe.png');
+    background-size: cover;
+}
+
 /* ---------------------- NAVBAR ------------------------*/
+
+
 
 h1, h2, p{
     margin: 0;
@@ -222,5 +231,100 @@ color: #9056E8;
 
 
 }
+
+/*------------- CARROSSEL-EQUIPE --------------*/
+
+.carousel-control-next-icon {
+    background-image: url('../img/arrow-right.png')!important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../img/left-arrow.png')!important;
+}
+
+.carousel-indicators{
+    bottom: -24px!important;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: #7931e4;
+    height: 4px;
+}
+
+/*------------------------------------ EQUIPE ----------------------------------*/
+
+.main .equipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     margin-top: 100px;
+ }
+
+
+.main .equipe .titulo-equipe h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 1.2rem;
+line-height: 48px;
+color: #9056E8;
+
+
+}
+
+.equipe .card-equipe {
+    width: 14.875rem;
+  height:  20.1875rem;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 3.7037px 3.7037px rgba(0, 0, 0, 0.25);
+  border-radius: 50.9259px;
+  margin-top: 50px;
+  }
+  
+  .card-equipe .profile-picture{
+    height: 140px;
+    width: 140px;
+    border: 4px solid #9056E8;
+    margin-top: 30px;
+  }
+  
+  .card-equipe h1{
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.5185px;
+  line-height: 28px;
+  color: #9056E8;
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 0;
+  }
+  
+  .card-equipe p{
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.8889px;
+  line-height: 21px;
+  color: #595964;
+  text-align: center;
+  margin-top: 0;
+  }
+  
+  .card-equipe .icons-card{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+  }
+  
+  .card-equipe .icon{
+   height: 30px;
+   width: 30px;
+   
+  }
+  
 
 
