@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'AudioWide';
-    src: url(../fonts/Audiowide-Regular.ttf);
+    src: url('../fonts/Audiowide-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Poppins';
-    src: url(../fonts/Poppins-Medium.ttf);
+    src: url('../fonts/Poppins-Medium.ttf');
 }
 
 
@@ -325,6 +325,39 @@ color: #9056E8;
    width: 30px;
    
   }
-  
 
 
+  /*------------------------------------ PROJETO ----------------------------------*/
+
+
+  .main .projeto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     margin-top: 100px;
+ }
+
+
+.main .projeto .titulo-projeto h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 1.2rem;
+line-height: 48px;
+color: #9056E8;
+
+
+}
+
+.main .projeto .img-projeto {
+    width: 100%;
+
+
+}
+
+.main .projeto .img-projeto img {
+   
+
+
+}
