@@ -17,7 +17,9 @@
 
 /* ---------------------- NAVBAR ------------------------*/
 
-
+ul{
+    list-style: none;
+}
 
 h1, h2, p{
     margin: 0;
@@ -357,7 +359,253 @@ color: #9056E8;
 }
 
 .main .projeto .img-projeto img {
-   
+   width: 90%;
 
 
 }
+
+
+.main .projeto .projeto-texto  {
+    width: 75%;
+ 
+ 
+ }
+
+.main .projeto .projeto-texto p {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13.8894px;
+line-height: 169%;
+color: #493A8B;
+ 
+ 
+ }
+ 
+
+/*------------------------------------ CONTATO ----------------------------------*/
+
+.main .contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     margin-top: 100px;
+ }
+
+
+.main .contato .titulo-contato h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 1.2rem;
+line-height: 48px;
+color: #9056E8;
+
+
+}
+
+.main .contato form{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    width: 80%;
+    background: #D9D9D9;
+    box-shadow: 0px 2.33639px 10.5138px 6.42508px rgba(0, 0, 0, 0.25);
+    border-radius: 17.5229px;
+    height: 500px;
+}
+
+.main .contato form .titulo-form{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.main .contato form .titulo-form h1{ 
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14.0183px;
+line-height: 21px;
+color: #9056E8;
+}
+
+
+
+.main .contato form input{
+    
+    border: 0;
+    background: #C4C4CC;
+    border-radius: 11.682px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 9.34557px;
+    height: 30px;
+    width: 240px;
+    margin-bottom: 25px;
+    padding: 10px;
+
+}
+
+.main .contato form textarea{
+    
+    border: 0;
+    background: #C4C4CC;
+    border-radius: 11.682px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 9.34557px;
+    
+    width: 240px;
+    margin-bottom: 25px;
+    padding: 10px;
+
+}
+
+.main .contato form button{
+    
+    background: #9056E8;
+    box-shadow: 0px 1.75229px 4.67278px 2.33639px rgba(0, 0, 0, 0.25);
+    border-radius: 17.5229px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.0183px;
+    line-height: 21px;
+    height: 40px;
+    width: 140px;
+    border: 0;
+    color: #FFFFFF;
+
+}
+
+
+/*------------------------------------ FOOTER ----------------------------------*/
+
+
+.main .footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    margin-top: 100px;
+    background-color:  #E1E1E6;
+    
+} 
+
+.main .footer .footer-navegacao {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: flex-start;
+    
+} 
+
+.main .footer ul li {
+   margin-bottom: 15px;
+}
+
+.main .footer ul li h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.3977px;
+    line-height: 25px;
+    color: #493A8B;
+}
+
+.main .footer ul li h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.6169px;
+    line-height: 23px;
+    color: #493A8B;
+}
+
+.main .footer .inicio-footer {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+} 
+
+.main .footer  .sobrenos-footer {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+} 
+
+.main .footer .suporte-footer{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+} 
+
+
+.main .footer .footer-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    margin-top: 25px;
+   
+} 
+
+.main .footer .footer-contato .texto-contato-footer h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.2997px;
+    line-height: 26px;
+    color: #493A8B;
+} 
+
+
+.main .footer .footer-contato .icons-contato-footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+} 
+
+
+.main .footer .footer-contato .email-contato-footer h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.2997px;
+    line-height: 26px;
+    color: #493A8B;
+} 
+
+
+.main .footer .footer-copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    margin-top: 50px;
+} 
+
+.main .footer .footer-copyright .texto-copyright-footer h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.9121px;
+    line-height: 24px;
+    color: #493A8B;
+} 
+
+
+
+
+
